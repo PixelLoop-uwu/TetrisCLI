@@ -2,6 +2,8 @@
 
 Простая реализация классической игры Tetris в командной строке на Python с использованием `curses`.
 
+<img src="prew/prew.png" width=500>
+
 ## Особенности
 
 - Классический игровой процесс Tetris
@@ -35,10 +37,10 @@ pip install -e .
 ## Запуск
 
 ```bash
-python -m src.testris
+uv run src/testris.py
 ```
 
-или
+или (для pip)
 
 ```bash
 python src/testris.py
